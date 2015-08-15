@@ -5,4 +5,5 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]]
 
-  :main rot13.rot13)
+  :main rot13.core
+  :aot [rot13.core])

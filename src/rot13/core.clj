@@ -1,4 +1,5 @@
-(ns rot13.core)
+(ns rot13.core
+  (:gen-class))
 
 (defn encrypt-char
   "Applies ROT13 encryption to an input char"
